@@ -1,6 +1,6 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"welcome": "Bienvenido al template de cova para apps web",
+	"welcome": "Bienvenido a mi template para web apps",
 	"explore": "Explora las opciones para aprender más",
 	"siteBuiltWith": "Sitio construido con",
 	"examples": "Ejemplos",

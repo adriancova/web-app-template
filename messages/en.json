@@ -1,6 +1,6 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"welcome": "Welcome to cova's web app template",
+	"welcome": "Welcome to my web app template",
 	"explore": "Explore the options to learn more",
 	"siteBuiltWith": "Site built with",
 	"examples": "Examples",
