@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resetMode, setMode } from 'mode-watcher';
-	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
-	import { Button } from '$lib/components/ui/button/index.js';
+	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index';
+	import { Button } from '$lib/components/ui/button/index';
 	import Icon from '../Icon.svelte';
 </script>
 

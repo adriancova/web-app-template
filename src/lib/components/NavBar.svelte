@@ -7,7 +7,7 @@
 <header
 	class="sticky top-0 z-50 w-full bg-border shadow-sm backdrop-blur supports-[backdrop-filter]:bg-background/60"
 >
-	<div class={`flex h-14 items-center justify-between sm:container max-sm:px-4 sm:h-32 `}>
+	<div class={`flex h-14 items-center justify-between sm:container max-sm:px-4 sm:h-24 `}>
 		<Logo />
 		<div class="flex items-center justify-end gap-2 max-sm:ml-auto">
 			<LightSwitch />
