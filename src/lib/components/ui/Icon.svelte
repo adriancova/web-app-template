@@ -1,4 +1,6 @@
 <script lang="ts">
+	// custom Icon components, manually importing svg assets from any icon library.
+	// my personal favorite is: https://tabler.io/icons
 	import ArrowLeft from '$lib/assets/icons/arrow-left.svg?raw';
 	import ArrowRight from '$lib/assets/icons/arrow-right.svg?raw';
 	import BellMinus from '$lib/assets/icons/bell-minus.svg?raw';
@@ -28,34 +30,34 @@
 	export let height = '1rem';
 	export let focusable: string | number | null | undefined = undefined;
 	let icons = {
-		arrowLeft: { box: 24, svg: ArrowLeft },
-		arrowRight: { box: 24, svg: ArrowRight },
-		bellMinus: { box: 24, svg: BellMinus },
-		bellPlus: { box: 24, svg: BellPlus },
-		check: { box: 24, svg: Check },
-		chevronDown: { box: 24, svg: ChevronDown },
-		chevronRight: { box: 24, svg: ChevronRight },
-		circle: { box: 24, svg: Circle },
-		github: { box: 24, svg: Github },
-		google: { box: 24, svg: Google },
-		mailbox: { box: 24, svg: Mailbox },
-		menu: { box: 24, svg: Menu },
-		moodDollar: { box: 24, svg: MoodDollar },
-		moon: { box: 24, svg: Moon },
-		pigMoney: { box: 24, svg: PigMoney },
-		puzzle: { box: 24, svg: Puzzle },
-		reset: { box: 24, svg: Reset },
-		rocket: { box: 24, svg: Rocket },
-		shadcnSvelte: { box: 24, svg: ShadcnSvelte },
-		sourceCode: { box: 24, svg: SourceCode },
-		sun: { box: 24, svg: Sun },
-		svelte: { box: 24, svg: Svelte },
-		world: { box: 24, svg: World },
-		x: { box: 24, svg: X }
+		arrowLeft: { svg: ArrowLeft },
+		arrowRight: { svg: ArrowRight },
+		bellMinus: { svg: BellMinus },
+		bellPlus: { svg: BellPlus },
+		check: { svg: Check },
+		chevronDown: { svg: ChevronDown },
+		chevronRight: { svg: ChevronRight },
+		circle: { svg: Circle },
+		github: { svg: Github },
+		google: { svg: Google },
+		mailbox: { svg: Mailbox },
+		menu: { svg: Menu },
+		moodDollar: { svg: MoodDollar },
+		moon: { svg: Moon },
+		pigMoney: { svg: PigMoney },
+		puzzle: { svg: Puzzle },
+		reset: { svg: Reset },
+		rocket: { svg: Rocket },
+		shadcnSvelte: { svg: ShadcnSvelte },
+		sourceCode: { svg: SourceCode },
+		sun: { svg: Sun },
+		svelte: { svg: Svelte },
+		world: { svg: World },
+		x: { svg: X }
 	} as const;
 	let display = icons[name];
 </script>
 
-<svg class={$$props.class} {focusable} {width} {height} viewBox="0 0 {display.box} {display.box}"
-	>{@html display.svg}</svg
->
+<svg class={$$props.class} {focusable} {width} {height} viewBox="0 0 24 24">
+	{@html display.svg}
+</svg>
