@@ -17,9 +17,6 @@ dependencies:
   drizzle-orm:
     specifier: ^0.30.7
     version: 0.30.7(@types/better-sqlite3@7.6.9)(better-sqlite3@9.4.5)
-  lucide-svelte:
-    specifier: ^0.365.0
-    version: 0.365.0(svelte@4.2.12)
   mode-watcher:
     specifier: ^0.3.0
     version: 0.3.0(svelte@4.2.12)
@@ -3386,14 +3383,6 @@ packages:
     dependencies:
       es5-ext: 0.10.64
     dev: true
-
-  /lucide-svelte@0.365.0(svelte@4.2.12):
-    resolution: {integrity: sha512-px3SDEGepR4sICxU38B9VFJJHglZjWnucTlZbbOgySxkAuZRr+b9CHwTDJKA2Xzs7dSjFKaasequwDg0SRIfiA==}
-    peerDependencies:
-      svelte: ^3 || ^4 || ^5.0.0-next.42
-    dependencies:
-      svelte: 4.2.12
-    dev: false
 
   /magic-string@0.30.9:
     resolution: {integrity: sha512-S1+hd+dIrC8EZqKyT9DstTH/0Z+f76kmmvZnkfQVmOpDEF9iVgdYif3Q/pIWHmCoo59bQVGW0kVL3e2nl+9+Sw==}
