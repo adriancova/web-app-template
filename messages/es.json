@@ -1,5 +1,9 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"welcome": "Bienvenido a la app Demo.",
-	"siteBuiltWith": "Sitio construido con"
+	"welcome": "Bienvenido al template de cova para apps web",
+	"explore": "Explora las opciones para aprender más",
+	"siteBuiltWith": "Sitio construido con",
+	"examples": "Ejemplos",
+	"stack": "Stack de desarrollo",
+	"githubRepo": "Repo de GitHub"
 }
