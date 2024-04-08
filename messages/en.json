@@ -1,4 +1,5 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"welcome": "Welcome to the demo app"
+	"welcome": "Welcome to the demo app",
+	"siteBuiltWith": "Site built with"
 }

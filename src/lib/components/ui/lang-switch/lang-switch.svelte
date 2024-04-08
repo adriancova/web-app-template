@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { availableLanguageTags, languageTag } from '../../../../paraglide/runtime.js';
+	import { availableLanguageTags, languageTag } from '$lib/paraglide/runtime';
 	import { Button } from '$lib/components/ui/button';
 	import { i18n } from '$lib/i18n.js';
 	import { page } from '$app/stores';
